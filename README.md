@@ -5,7 +5,7 @@ This project is a full-stack clone of the popular accommodation booking platform
 
 ## Tech Stack
 - **Frontend**: HTML, CSS, JavaScript (React)
-- **Backend**: Node.js 
+- **Backend**: Node.js or other
 - **Database**: MongoDB or PostgreSQL 
 - **Design Tool**: Figma for UI/UX design
 - **Version Control**: Git and GitHub
