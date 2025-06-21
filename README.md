@@ -1,12 +1,12 @@
 # AirBnB Clone Project
 
 ## Overview
-This project is a full-stack clone of the popular accommodation booking platform, AirBnB. The goal is to build a fully functional web application where users can browse property listings, view detailed information, and book accommodations. It includes frontend design, backend APIs, database design, and deployment.
+This project is a full-stack clone of the popular accommodation booking platform, AirBnB. The goal is to build a fully functional web application where users can browse property listings, view detailed information and book accommodations. It includes frontend design, backend APIs, database design and deployment.
 
 ## Tech Stack
-- **Frontend**: HTML, CSS, JavaScript (React or similar framework)
-- **Backend**: Node.js / Express (optional for later stage)
-- **Database**: MongoDB or PostgreSQL (optional for later stage)
+- **Frontend**: HTML, CSS, JavaScript (React)
+- **Backend**: Node.js 
+- **Database**: MongoDB or PostgreSQL 
 - **Design Tool**: Figma for UI/UX design
 - **Version Control**: Git and GitHub
 
@@ -34,7 +34,7 @@ This project is a full-stack clone of the popular accommodation booking platform
 | **Simple Checkout View** | Streamlined payment and booking confirmation |
 
 ### Importance of User-Friendly Design
-A user-friendly booking system minimizes friction, boosts conversion rates, and enhances customer satisfaction. Clear navigation, responsive layout, and an intuitive interface are essential for a smooth user experience.
+A user-friendly booking system minimizes friction, boosts conversion rates, and enhances customer satisfaction. Clear navigation, responsive layout and an intuitive interface are essential for a smooth user experience.
 
 ---
 
@@ -54,7 +54,7 @@ A user-friendly booking system minimizes friction, boosts conversion rates, and 
 - **Secondary Text**: Book (400), 14px
 
 ### Why Design Properties Matter
-Identifying design properties such as color, typography, and layout ensures consistency between the mockup and the final product. It also helps developers implement a visually cohesive and user-friendly interface.
+Identifying design properties such as color, typography and layout ensures consistency between the mockup and the final product. It also helps developers implement a visually cohesive and user-friendly interface.
 
 ---
 
