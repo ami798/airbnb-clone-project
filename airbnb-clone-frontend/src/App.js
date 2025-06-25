@@ -1,19 +1,32 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
-import Home from './pages/Home';
-import Details from './pages/Details';
-import Checkout from './pages/Checkout';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import PropertyCard from './components/PropertyCard';
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/details" element={<Details />} />
-        <Route path="/checkout" element={<Checkout />} />
-      </Routes>
-    </Router>
+    <div>
+      <Navbar />
+
+      <h1 style={{ padding: '1rem' }}>Welcome to AirBnB Clone ✈️</h1>
+
+      <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
+        <PropertyCard
+          image="https://source.unsplash.com/300x200/?house"
+          location="Addis Ababa"
+          price="45"
+          rating="4.8"
+        />
+        <PropertyCard
+          image="https://source.unsplash.com/300x200/?apartment"
+          location="Dire Dawa"
+          price="35"
+          rating="4.5"
+        />
+      </div>
+
+      <Footer />
+    </div>
   );
 }
 
