@@ -1,18 +1,33 @@
 {
-  "name": "airbnb-clone-backend",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.10"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.0.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.1",
+    "react-router-dom": "^7.6.2"
+  },
+  "name": "airbnb-clone-project",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "* [Overview](#overview)\r * [Tech Stack](#tech-stack)\r * [UI/UX Design Planning](#uiux-design-planning)\r * [Project Roles and Responsibilities](#project-roles-and-responsibilities)\r * [UI Component Patterns](#ui-component-patterns)\r * [Frontend Development Best Practices](#frontend-development-best-practices)\r * [Backend Overview](#backend-overview)\r * [Database Design](#database-design)\r * [Feature Breakdown](#feature-breakdown)\r * [API Security](#api-security)\r * [CI/CD Pipeline](#cicd-pipeline)\r * [Disclaimer & License](#disclaimer--license)",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ami798/airbnb-clone-project.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "dotenv": "^16.5.0",
-    "express": "^5.1.0",
-    "mongoose": "^8.16.0"
-  }
+  "bugs": {
+    "url": "https://github.com/ami798/airbnb-clone-project/issues"
+  },
+  "homepage": "https://github.com/ami798/airbnb-clone-project#readme"
 }
